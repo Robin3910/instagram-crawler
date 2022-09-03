@@ -135,7 +135,7 @@ async function sleep(ms) {
 async function main() {
     while (1) {
         if (isRunning) {
-            await sleep(3000);
+            await sleep(6000);
             continue;
         }
         run();
